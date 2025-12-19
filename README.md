@@ -117,7 +117,3 @@ All API inputs are validated automatically using class-validator decorators befo
 - **People exist independently**: Created a separate Person entity and module since tasks need to be assigned to people who should be managed separately.
 - **Simple validation is enough**: Used basic validation (required fields, enums) without complex business rules like due date validation or task dependencies.
 - **Standard REST conventions**: Used conventional HTTP methods and status codes (e.g., DELETE returns 204 No Content).
-
-## Notes
-
-This was built as a technical interview task to demonstrate backend architecture skills within a one-hour timeframe. The focus was on code organization, design patterns, and maintainability rather than feature completeness.
